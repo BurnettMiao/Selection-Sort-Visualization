@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.bar {
+  margin: 0 2px;
+  background-color: skyblue;
+  width: 20px;
+  transition: all 0.3s;
+}
+
+.bar.active {
+  background-color: orange;
+}
+
+.bar.min {
+  background-color: red;
+}
